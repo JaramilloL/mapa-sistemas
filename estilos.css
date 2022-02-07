@@ -1,0 +1,103 @@
+html{
+    box-sizing: border-box;
+}
+body{
+    background-image: linear-gradient(to left, #111, #113);
+    text-align: justify;
+}
+.contenedor{
+    width: 80%;
+    color: #fff;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-gap: 40px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(6, auto);
+    grid-template-areas: "header header" "que-es que-es" "como-funciona objetivo" "tipos que-se-busca" "ayuda vida-cotidiana" "datos datos";
+}
+.header{
+    grid-area: header;
+    border: 3px solid #ccc;
+    padding: 10px;
+}
+.header:hover{
+    box-shadow: 5px 10px 5px #f96;
+}
+.que-es{
+    grid-area: que-es;
+    border: 3px solid #ccc;
+    padding: 10px;
+}
+.que-es:hover{
+    box-shadow: 5px 10px 5px #f96;
+}
+.como-funciona{
+    grid-area: como-funciona;
+    border: 3px solid #ccc;
+    padding: 10px;
+}
+.como-funciona:hover{
+    box-shadow: 5px 10px 5px #f96;
+}
+.objetivo{
+    grid-area: objetivo;
+    border: 3px solid #ccc;
+    padding: 10px;
+}
+.objetivo:hover{
+    box-shadow: 5px 10px 5px #f96;
+}
+.tipos{
+    grid-area: tipos;
+    border: 3px solid #ccc;
+    padding: 10px;
+}
+.tipos:hover{
+    box-shadow: 5px 10px 5px #f96;
+}
+.que-se-busca{
+    grid-area: que-se-busca;
+    border: 3px solid #ccc;
+    padding: 10px;
+}
+.que-se-busca:hover{
+    box-shadow: 5px 10px 5px #f96;
+}
+.ayuda{
+    grid-area: ayuda;
+    border: 3px solid #ccc;
+    padding: 10px;
+}
+.ayuda:hover{
+    box-shadow: 5px 10px 5px #f96;
+}
+.vida-cotidiana{
+    grid-area: vida-cotidiana;
+    border: 3px solid #ccc;
+    padding: 10px;
+}
+.vida-cotidiana:hover{
+    box-shadow: 5px 10px 5px #f96;
+}
+.datos{
+    text-transform: uppercase;
+    text-decoration: underline;
+    grid-area: datos;
+    border: 3px solid #ccc;
+    padding: 10px;
+}
+.datos:hover{
+    box-shadow: 5px 10px 5px #f96   
+}
+header{
+    background-color: #2229;
+    font-size: 30px;
+    text-align: center;
+    padding: 10px;
+}
+h3{
+    text-align: center;
+    text-decoration: underline;
+    text-shadow: 5px 5px 10px #721;
+}
